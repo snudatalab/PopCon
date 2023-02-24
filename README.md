@@ -3,7 +3,7 @@ This project is a PyTorch implementation of Aggregately Diversified Bundle Recom
 
 ## Overview
 The overview of PopCon is as follows.
-![overview](./src/framework.jpg)
+![overview](./overview.pdf)
 
 ## Prerequisties
 Our implementation is based on Python 3.8 and Pytorch 1.8.1. Please see the full list of packages required to our codes in `requirements.txt`.
