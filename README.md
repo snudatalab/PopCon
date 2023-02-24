@@ -3,6 +3,10 @@ This project is a PyTorch implementation of Aggregately Diversified Bundle Recom
 
 ## Overview
 The overview of PopCon is as follows.
+PopCon consists of two phases, model training phase and reranking phase.
+In the training phase, PopCon trains a bundle recommendation model such as DAM or CrossCBR as a backbone while mitigating its popularity bias by a popularity-based negative sampling.
+In the raranking phase, PopCon selects candidate bundles for each user and reranks the candidates by a configuration-aware reranking algorithm to maximize both accuracy and aggregate diversity.
+For more details, please refer to our paper.
 ![overview](./overview.png)
 
 ## Prerequisties
