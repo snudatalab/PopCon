@@ -18,3 +18,17 @@ You can run the pretraining code by `python pretrain.py` with arguments `--epoch
 You can also run the reranking code by `python reranking.py` with arguments `--beta` and `--n`.
 To run `reranking.py`, running `pretrain.py` must precede because it returns a recommendation results of a model.
 We provide `demo.sh`, which reproduces the experiments of our work.
+
+## Citation
+```
+@inproceedings{conf/pakdd/JeonKLLK23,
+  author    = {Hyunsik Jeon and
+               Jongjin Kim and
+               Jaeri Lee and
+               Jong-eun Lee and
+               U Kang},
+  title     = {Aggregately Diversified Bundle Recommendation via Popularity Debiasing and Configuration-aware Reranking},
+  booktitle = {PAKDD},
+  year      = {2023},
+}
+```
