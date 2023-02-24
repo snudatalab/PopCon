@@ -1,5 +1,5 @@
 # PopCon
-This project is a PyTorch implementation of PopCon which is submitted to PAKDD 2023.
+This project is a PyTorch implementation of Aggregately Diversified Bundle Recommendation via Popularity Debiasing and Configuration-aware Reranking (PAKDD 2023).
 
 ## Prerequisties
 Our implementation is based on Python 3.8 and Pytorch 1.8.1. Please see the full list of packages required to our codes in `requirements.txt`.
